@@ -22,3 +22,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+![ezgif com-gif-maker (8)](https://user-images.githubusercontent.com/62211880/138208151-2bdb6015-9a99-4b25-85c4-12c4472d82cd.gif)
