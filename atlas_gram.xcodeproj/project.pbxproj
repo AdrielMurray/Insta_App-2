@@ -12,6 +12,7 @@
 		CF462C9B270FA44D00DCB3D6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF462C9A270FA44D00DCB3D6 /* CameraViewController.swift */; };
 		CF4FBE8A270D1AA200E7FA72 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4FBE89270D1AA200E7FA72 /* LogInViewController.swift */; };
 		CF4FBE8F270D1AB800E7FA72 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4FBE8E270D1AB800E7FA72 /* FeedViewController.swift */; };
+		CF86CE00271E48DD004A9DD7 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86CDFF271E48DD004A9DD7 /* CommentCell.swift */; };
 		CF92F0DF2710EE6F0040501E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF92F0DE2710EE6F0040501E /* PostCell.swift */; };
 		CFE62508270C0C3F00E0FE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE62507270C0C3F00E0FE54 /* AppDelegate.swift */; };
 		CFE6250A270C0C3F00E0FE54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE62509270C0C3F00E0FE54 /* SceneDelegate.swift */; };
@@ -51,18 +52,19 @@
 		CF462C9A270FA44D00DCB3D6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		CF4FBE89270D1AA200E7FA72 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		CF4FBE8E270D1AB800E7FA72 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		CF86CDFF271E48DD004A9DD7 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		CF92F0DE2710EE6F0040501E /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
-		CFE62504270C0C3F00E0FE54 /* Insta_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insta_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE62504270C0C3F00E0FE54 /* atlas_gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atlas_gram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE62507270C0C3F00E0FE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFE62509270C0C3F00E0FE54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CFE6250E270C0C3F00E0FE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFE62510270C0C4100E0FE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFE62513270C0C4100E0FE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFE62515270C0C4100E0FE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFE6251A270C0C4100E0FE54 /* Insta_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Insta_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE6251A270C0C4100E0FE54 /* atlas_gramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atlas_gramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE6251E270C0C4100E0FE54 /* Insta_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_AppTests.swift; sourceTree = "<group>"; };
 		CFE62520270C0C4100E0FE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFE62525270C0C4100E0FE54 /* Insta_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Insta_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE62525270C0C4100E0FE54 /* atlas_gramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atlas_gramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE62529270C0C4100E0FE54 /* Insta_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_AppUITests.swift; sourceTree = "<group>"; };
 		CFE6252B270C0C4100E0FE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E132B534027A8F45828B6E10 /* Pods_Insta_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insta_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,9 +115,9 @@
 		CFE624FB270C0C3F00E0FE54 = {
 			isa = PBXGroup;
 			children = (
-				CFE62506270C0C3F00E0FE54 /* Insta_App */,
-				CFE6251D270C0C4100E0FE54 /* Insta_AppTests */,
-				CFE62528270C0C4100E0FE54 /* Insta_AppUITests */,
+				CFE62506270C0C3F00E0FE54 /* atlas_gram */,
+				CFE6251D270C0C4100E0FE54 /* atlas_gramTests */,
+				CFE62528270C0C4100E0FE54 /* atlas_gramUITests */,
 				CFE62505270C0C3F00E0FE54 /* Products */,
 				771D919FED0FAF50F0923627 /* Pods */,
 				EE38614E090CDACAE2EE73B7 /* Frameworks */,
@@ -125,14 +127,14 @@
 		CFE62505270C0C3F00E0FE54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFE62504270C0C3F00E0FE54 /* Insta_App.app */,
-				CFE6251A270C0C4100E0FE54 /* Insta_AppTests.xctest */,
-				CFE62525270C0C4100E0FE54 /* Insta_AppUITests.xctest */,
+				CFE62504270C0C3F00E0FE54 /* atlas_gram.app */,
+				CFE6251A270C0C4100E0FE54 /* atlas_gramTests.xctest */,
+				CFE62525270C0C4100E0FE54 /* atlas_gramUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CFE62506270C0C3F00E0FE54 /* Insta_App */ = {
+		CFE62506270C0C3F00E0FE54 /* atlas_gram */ = {
 			isa = PBXGroup;
 			children = (
 				CFE62507270C0C3F00E0FE54 /* AppDelegate.swift */,
@@ -145,26 +147,27 @@
 				CF4FBE8E270D1AB800E7FA72 /* FeedViewController.swift */,
 				CF462C9A270FA44D00DCB3D6 /* CameraViewController.swift */,
 				CF92F0DE2710EE6F0040501E /* PostCell.swift */,
+				CF86CDFF271E48DD004A9DD7 /* CommentCell.swift */,
 			);
-			path = Insta_App;
+			path = atlas_gram;
 			sourceTree = "<group>";
 		};
-		CFE6251D270C0C4100E0FE54 /* Insta_AppTests */ = {
+		CFE6251D270C0C4100E0FE54 /* atlas_gramTests */ = {
 			isa = PBXGroup;
 			children = (
 				CFE6251E270C0C4100E0FE54 /* Insta_AppTests.swift */,
 				CFE62520270C0C4100E0FE54 /* Info.plist */,
 			);
-			path = Insta_AppTests;
+			path = atlas_gramTests;
 			sourceTree = "<group>";
 		};
-		CFE62528270C0C4100E0FE54 /* Insta_AppUITests */ = {
+		CFE62528270C0C4100E0FE54 /* atlas_gramUITests */ = {
 			isa = PBXGroup;
 			children = (
 				CFE62529270C0C4100E0FE54 /* Insta_AppUITests.swift */,
 				CFE6252B270C0C4100E0FE54 /* Info.plist */,
 			);
-			path = Insta_AppUITests;
+			path = atlas_gramUITests;
 			sourceTree = "<group>";
 		};
 		EE38614E090CDACAE2EE73B7 /* Frameworks */ = {
@@ -180,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CFE62503270C0C3F00E0FE54 /* Insta_App */ = {
+		CFE62503270C0C3F00E0FE54 /* atlas_gram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE6252E270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "Insta_App" */;
+			buildConfigurationList = CFE6252E270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "atlas_gram" */;
 			buildPhases = (
 				6F94302D11A8CA4093F7C5A0 /* [CP] Check Pods Manifest.lock */,
 				CFE62500270C0C3F00E0FE54 /* Sources */,
@@ -194,14 +197,14 @@
 			);
 			dependencies = (
 			);
-			name = Insta_App;
+			name = atlas_gram;
 			productName = Insta_App;
-			productReference = CFE62504270C0C3F00E0FE54 /* Insta_App.app */;
+			productReference = CFE62504270C0C3F00E0FE54 /* atlas_gram.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CFE62519270C0C4100E0FE54 /* Insta_AppTests */ = {
+		CFE62519270C0C4100E0FE54 /* atlas_gramTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE62531270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "Insta_AppTests" */;
+			buildConfigurationList = CFE62531270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "atlas_gramTests" */;
 			buildPhases = (
 				6B094CB5AEB91D8F722CEEBB /* [CP] Check Pods Manifest.lock */,
 				CFE62516270C0C4100E0FE54 /* Sources */,
@@ -213,14 +216,14 @@
 			dependencies = (
 				CFE6251C270C0C4100E0FE54 /* PBXTargetDependency */,
 			);
-			name = Insta_AppTests;
+			name = atlas_gramTests;
 			productName = Insta_AppTests;
-			productReference = CFE6251A270C0C4100E0FE54 /* Insta_AppTests.xctest */;
+			productReference = CFE6251A270C0C4100E0FE54 /* atlas_gramTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CFE62524270C0C4100E0FE54 /* Insta_AppUITests */ = {
+		CFE62524270C0C4100E0FE54 /* atlas_gramUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE62534270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "Insta_AppUITests" */;
+			buildConfigurationList = CFE62534270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "atlas_gramUITests" */;
 			buildPhases = (
 				90B542696E6EA920184D8A95 /* [CP] Check Pods Manifest.lock */,
 				CFE62521270C0C4100E0FE54 /* Sources */,
@@ -233,9 +236,9 @@
 			dependencies = (
 				CFE62527270C0C4100E0FE54 /* PBXTargetDependency */,
 			);
-			name = Insta_AppUITests;
+			name = atlas_gramUITests;
 			productName = Insta_AppUITests;
-			productReference = CFE62525270C0C4100E0FE54 /* Insta_AppUITests.xctest */;
+			productReference = CFE62525270C0C4100E0FE54 /* atlas_gramUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CFE624FF270C0C3F00E0FE54 /* Build configuration list for PBXProject "Insta_App" */;
+			buildConfigurationList = CFE624FF270C0C3F00E0FE54 /* Build configuration list for PBXProject "atlas_gram" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,9 +276,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFE62503270C0C3F00E0FE54 /* Insta_App */,
-				CFE62519270C0C4100E0FE54 /* Insta_AppTests */,
-				CFE62524270C0C4100E0FE54 /* Insta_AppUITests */,
+				CFE62503270C0C3F00E0FE54 /* atlas_gram */,
+				CFE62519270C0C4100E0FE54 /* atlas_gramTests */,
+				CFE62524270C0C4100E0FE54 /* atlas_gramUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -421,6 +424,7 @@
 				CF4FBE8F270D1AB800E7FA72 /* FeedViewController.swift in Sources */,
 				CF4FBE8A270D1AA200E7FA72 /* LogInViewController.swift in Sources */,
 				CF92F0DF2710EE6F0040501E /* PostCell.swift in Sources */,
+				CF86CE00271E48DD004A9DD7 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,12 +449,12 @@
 /* Begin PBXTargetDependency section */
 		CFE6251C270C0C4100E0FE54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CFE62503270C0C3F00E0FE54 /* Insta_App */;
+			target = CFE62503270C0C3F00E0FE54 /* atlas_gram */;
 			targetProxy = CFE6251B270C0C4100E0FE54 /* PBXContainerItemProxy */;
 		};
 		CFE62527270C0C4100E0FE54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CFE62503270C0C3F00E0FE54 /* Insta_App */;
+			target = CFE62503270C0C3F00E0FE54 /* atlas_gram */;
 			targetProxy = CFE62526270C0C4100E0FE54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -598,12 +602,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Insta_App/Info.plist;
+				INFOPLIST_FILE = atlas_gram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Okera.com.Insta-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "adrielmurray.com.atlas-gram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -617,12 +621,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Insta_App/Info.plist;
+				INFOPLIST_FILE = atlas_gram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Okera.com.Insta-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "adrielmurray.com.atlas-gram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -647,7 +651,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insta_App.app/Insta_App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atlas_gram.app/atlas_gram";
 			};
 			name = Debug;
 		};
@@ -669,7 +673,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insta_App.app/Insta_App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atlas_gram.app/atlas_gram";
 			};
 			name = Release;
 		};
@@ -716,7 +720,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFE624FF270C0C3F00E0FE54 /* Build configuration list for PBXProject "Insta_App" */ = {
+		CFE624FF270C0C3F00E0FE54 /* Build configuration list for PBXProject "atlas_gram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFE6252C270C0C4100E0FE54 /* Debug */,
@@ -725,7 +729,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFE6252E270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "Insta_App" */ = {
+		CFE6252E270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "atlas_gram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFE6252F270C0C4100E0FE54 /* Debug */,
@@ -734,7 +738,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFE62531270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "Insta_AppTests" */ = {
+		CFE62531270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "atlas_gramTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFE62532270C0C4100E0FE54 /* Debug */,
@@ -743,7 +747,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFE62534270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "Insta_AppUITests" */ = {
+		CFE62534270C0C4100E0FE54 /* Build configuration list for PBXNativeTarget "atlas_gramUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFE62535270C0C4100E0FE54 /* Debug */,

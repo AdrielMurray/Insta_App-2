@@ -2,7 +2,7 @@
 //  CameraViewController.swift
 //  Insta_App
 //
-//  Created by Okera Murray on 10/7/21.
+//  Created by Adriel Murray on 10/7/21.
 //
 
 import UIKit
@@ -59,7 +59,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let image = info[.editedImage] as! UIImage
         
         let size = CGSize(width: 300, height: 300)
-        let scaledImage = image.af_imageScaled(to: size)
+        let scaledImage = image.af_imageAspectScaled(toFill: size)
         
         imageView.image = scaledImage
         dismiss(animated: true, completion: nil)

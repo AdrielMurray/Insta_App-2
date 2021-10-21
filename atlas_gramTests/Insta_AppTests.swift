@@ -2,7 +2,7 @@
 //  Insta_AppTests.swift
 //  Insta_AppTests
 //
-//  Created by Okera Murray on 10/5/21.
+//  Created by Adriel Murray on 10/5/21.
 //
 
 import XCTest
